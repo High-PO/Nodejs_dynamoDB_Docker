@@ -30,6 +30,14 @@ app.get('/ui', (req, res, callback) => {
     return promise;          
 });
 
+app.get('/', (req,res) => {
+    res.send({
+        'statusCode': '200',
+        'Content-Type': 'application/json',
+        'body': 'GOOD'
+    });
+});
+
 app.post('/ui', (req, res, callback) => {
     const promise = new Promise(function(resolve, reject) {    
         var _id = req.body.id

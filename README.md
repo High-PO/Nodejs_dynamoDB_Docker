@@ -12,23 +12,28 @@ Use Stack :
 
 # Edit Part
 
-server.js
+## server.js
 ```
 <DynamoDB_Region>
 ```
+`DynamoDB_Region` in your DynamoDB region
 ```
 <DynamoDB_Name>
 ```
-Dockerfile
+`DynamoDB_Name` in your DynamoDB Name
+## Dockerfile
 ```
 <Access_ID>
 ```
+`Access_ID` in your AWS IAM User AWS Access_ID
 ```
 <Secret_Access_Key>
 ```
+`Secret_Access_Key` in your AWS IAM User AWS Secret_Access_Key
 ```
 <Region>
 ```
+`Region` in your AWS Region
 
 # Git Clone & Dockerbuild
 ```
